@@ -1,0 +1,661 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Reaqtor.IoT/1.0.0-beta.31": {
+        "dependencies": {
+          "Microsoft.SourceLink.GitHub": "1.1.1",
+          "Nerdbank.GitVersioning": "3.6.133",
+          "Nuqleon.DataModel": "1.0.0",
+          "Reaqtive.Linq": "1.0.0",
+          "Reaqtive.Scheduler": "1.0.0",
+          "Reaqtor.Client": "1.0.0",
+          "Reaqtor.QueryEngine": "1.0.0",
+          "Reaqtor.QueryEngine.Serialization.DataModel": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.IoT.dll": {}
+        }
+      },
+      "Microsoft.Build.Tasks.Git/1.1.1": {},
+      "Microsoft.SourceLink.Common/1.1.1": {},
+      "Microsoft.SourceLink.GitHub/1.1.1": {
+        "dependencies": {
+          "Microsoft.Build.Tasks.Git": "1.1.1",
+          "Microsoft.SourceLink.Common": "1.1.1"
+        }
+      },
+      "Nerdbank.GitVersioning/3.6.133": {},
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {},
+      "Nuqleon.Collections.Specialized/1.0.0": {
+        "runtime": {
+          "Nuqleon.Collections.Specialized.dll": {}
+        }
+      },
+      "Nuqleon.DataModel/1.0.0": {
+        "runtime": {
+          "Nuqleon.DataModel.dll": {}
+        }
+      },
+      "Nuqleon.DataModel.Serialization.Json/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Nuqleon.DataModel": "1.0.0",
+          "Nuqleon.Linq.CompilerServices": "1.0.0",
+          "Nuqleon.Linq.Expressions.Bonsai": "1.0.0",
+          "System.Buffers": "4.5.1"
+        },
+        "runtime": {
+          "Nuqleon.DataModel.Serialization.Json.dll": {}
+        }
+      },
+      "Nuqleon.IO.StreamSegment/1.0.0": {
+        "runtime": {
+          "Nuqleon.IO.StreamSegment.dll": {}
+        }
+      },
+      "Nuqleon.Json/1.0.0": {
+        "runtime": {
+          "Nuqleon.Json.dll": {}
+        }
+      },
+      "Nuqleon.Json.Interop.Newtonsoft/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Nuqleon.Json": "1.0.0",
+          "Nuqleon.Memory": "1.0.0"
+        },
+        "runtime": {
+          "Nuqleon.Json.Interop.Newtonsoft.dll": {}
+        }
+      },
+      "Nuqleon.Linq.CompilerServices/1.0.0": {
+        "dependencies": {
+          "Nuqleon.Memory": "1.0.0"
+        },
+        "runtime": {
+          "Nuqleon.Linq.CompilerServices.dll": {}
+        }
+      },
+      "Nuqleon.Linq.Expressions.Bonsai/1.0.0": {
+        "dependencies": {
+          "Nuqleon.Linq.CompilerServices": "1.0.0",
+          "Nuqleon.Reflection.Virtualization": "1.0.0"
+        },
+        "runtime": {
+          "Nuqleon.Linq.Expressions.Bonsai.dll": {}
+        }
+      },
+      "Nuqleon.Linq.Expressions.Bonsai.Serialization/1.0.0": {
+        "dependencies": {
+          "Nuqleon.Json": "1.0.0",
+          "Nuqleon.Linq.Expressions.Bonsai": "1.0.0"
+        },
+        "runtime": {
+          "Nuqleon.Linq.Expressions.Bonsai.Serialization.dll": {}
+        }
+      },
+      "Nuqleon.Memory/1.0.0": {
+        "dependencies": {
+          "Nuqleon.Time": "1.0.0"
+        },
+        "runtime": {
+          "Nuqleon.Memory.dll": {}
+        }
+      },
+      "Nuqleon.Reflection.Virtualization/1.0.0": {
+        "dependencies": {
+          "Nuqleon.Memory": "1.0.0"
+        },
+        "runtime": {
+          "Nuqleon.Reflection.Virtualization.dll": {}
+        }
+      },
+      "Nuqleon.Time/1.0.0": {
+        "runtime": {
+          "Nuqleon.Time.dll": {}
+        }
+      },
+      "Reaqtive.Core/1.0.0": {
+        "dependencies": {
+          "Reaqtive.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtive.Core.dll": {}
+        }
+      },
+      "Reaqtive.Interfaces/1.0.0": {
+        "runtime": {
+          "Reaqtive.Interfaces.dll": {}
+        }
+      },
+      "Reaqtive.Linq/1.0.0": {
+        "dependencies": {
+          "Reaqtive.Core": "1.0.0",
+          "Reaqtive.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtive.Linq.dll": {}
+        }
+      },
+      "Reaqtive.Quotation/1.0.0": {
+        "dependencies": {
+          "Nuqleon.Linq.CompilerServices": "1.0.0",
+          "Nuqleon.Memory": "1.0.0",
+          "Nuqleon.Reflection.Virtualization": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtive.Quotation.dll": {}
+        }
+      },
+      "Reaqtive.Scheduler/1.0.0": {
+        "dependencies": {
+          "Reaqtive.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtive.Scheduler.dll": {}
+        }
+      },
+      "Reaqtor.Client/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Client.Core": "1.0.0",
+          "Reaqtor.Client.Model": "1.0.0",
+          "Reaqtor.Expressions.Core": "1.0.0",
+          "Reaqtor.Expressions.Model": "1.0.0",
+          "Reaqtor.Local.Core": "1.0.0",
+          "Reaqtor.Metadata.Model": "1.0.0",
+          "Reaqtor.Service.Contracts": "1.0.0",
+          "Reaqtor.Shared.Core": "1.0.0",
+          "Reaqtor.Shared.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Client.dll": {}
+        }
+      },
+      "Reaqtor.Client.Core/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Client.Model": "1.0.0",
+          "Reaqtor.Expressions.Core": "1.0.0",
+          "Reaqtor.Expressions.Model": "1.0.0",
+          "Reaqtor.Local.Core": "1.0.0",
+          "Reaqtor.Metadata.Model": "1.0.0",
+          "Reaqtor.Shared.Core": "1.0.0",
+          "Reaqtor.Shared.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Client.Core.dll": {}
+        }
+      },
+      "Reaqtor.Client.Model/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Expressions.Model": "1.0.0",
+          "Reaqtor.Metadata.Model": "1.0.0",
+          "Reaqtor.Shared.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Client.Model.dll": {}
+        }
+      },
+      "Reaqtor.Engine.Contracts/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Local.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Engine.Contracts.dll": {}
+        }
+      },
+      "Reaqtor.Expressions.Binding/1.0.0": {
+        "dependencies": {
+          "Nuqleon.Linq.CompilerServices": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Expressions.Binding.dll": {}
+        }
+      },
+      "Reaqtor.Expressions.Core/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Expressions.Model": "1.0.0",
+          "Reaqtor.Local.Core": "1.0.0",
+          "Reaqtor.Shared.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Expressions.Core.dll": {}
+        }
+      },
+      "Reaqtor.Expressions.Model/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Local.Model": "1.0.0",
+          "Reaqtor.Shared.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Expressions.Model.dll": {}
+        }
+      },
+      "Reaqtor.Local.Core/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Local.Model": "1.0.0",
+          "Reaqtor.Shared.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Local.Core.dll": {}
+        }
+      },
+      "Reaqtor.Local.Model/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Shared.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Local.Model.dll": {}
+        }
+      },
+      "Reaqtor.Metadata.Model/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Expressions.Model": "1.0.0",
+          "Reaqtor.Shared.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Metadata.Model.dll": {}
+        }
+      },
+      "Reaqtor.QueryEngine/1.0.0": {
+        "dependencies": {
+          "Nuqleon.Collections.Specialized": "1.0.0",
+          "Nuqleon.DataModel": "1.0.0",
+          "Nuqleon.IO.StreamSegment": "1.0.0",
+          "Reaqtive.Core": "1.0.0",
+          "Reaqtive.Quotation": "1.0.0",
+          "Reaqtor.Client.Model": "1.0.0",
+          "Reaqtor.Engine.Contracts": "1.0.0",
+          "Reaqtor.Expressions.Binding": "1.0.0",
+          "Reaqtor.Expressions.Core": "1.0.0",
+          "Reaqtor.Local.Core": "1.0.0",
+          "Reaqtor.Metadata.Model": "1.0.0",
+          "Reaqtor.QueryEngine.Interfaces": "1.0.0",
+          "Reaqtor.Reactive.HigherOrder": "1.0.0",
+          "Reaqtor.Reliable": "1.0.0",
+          "Reaqtor.Service": "1.0.0",
+          "Reaqtor.Service.Contracts": "1.0.0",
+          "Reaqtor.Service.Core": "1.0.0",
+          "Reaqtor.Shared.Core": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.QueryEngine.dll": {}
+        }
+      },
+      "Reaqtor.QueryEngine.Interfaces/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Client.Model": "1.0.0",
+          "Reaqtor.Reliable.Model": "1.0.0",
+          "Reaqtor.Service.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.QueryEngine.Interfaces.dll": {}
+        }
+      },
+      "Reaqtor.QueryEngine.Serialization.DataModel/1.0.0": {
+        "dependencies": {
+          "Nuqleon.DataModel.Serialization.Json": "1.0.0",
+          "Nuqleon.IO.StreamSegment": "1.0.0",
+          "Nuqleon.Json.Interop.Newtonsoft": "1.0.0",
+          "Nuqleon.Linq.Expressions.Bonsai.Serialization": "1.0.0",
+          "Reaqtive.Quotation": "1.0.0",
+          "Reaqtor.QueryEngine.Interfaces": "1.0.0",
+          "Reaqtor.Reactive.HigherOrder": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.QueryEngine.Serialization.DataModel.dll": {}
+        }
+      },
+      "Reaqtor.Reactive.HigherOrder/1.0.0": {
+        "dependencies": {
+          "Nuqleon.Linq.CompilerServices": "1.0.0",
+          "Reaqtive.Core": "1.0.0",
+          "Reaqtive.Interfaces": "1.0.0",
+          "Reaqtive.Quotation": "1.0.0",
+          "Reaqtor.Service.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Reactive.HigherOrder.dll": {}
+        }
+      },
+      "Reaqtor.Reliable/1.0.0": {
+        "dependencies": {
+          "Nuqleon.Linq.CompilerServices": "1.0.0",
+          "Reaqtive.Core": "1.0.0",
+          "Reaqtor.Reliable.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Reliable.dll": {}
+        }
+      },
+      "Reaqtor.Reliable.Model/1.0.0": {
+        "dependencies": {
+          "Reaqtive.Interfaces": "1.0.0",
+          "Reaqtor.Expressions.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Reliable.Model.dll": {}
+        }
+      },
+      "Reaqtor.Service/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Engine.Contracts": "1.0.0",
+          "Reaqtor.Expressions.Core": "1.0.0",
+          "Reaqtor.Expressions.Model": "1.0.0",
+          "Reaqtor.Local.Core": "1.0.0",
+          "Reaqtor.Metadata.Model": "1.0.0",
+          "Reaqtor.Service.Core": "1.0.0",
+          "Reaqtor.Service.Model": "1.0.0",
+          "Reaqtor.Shared.Core": "1.0.0",
+          "Reaqtor.Shared.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Service.dll": {}
+        }
+      },
+      "Reaqtor.Service.Contracts/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Local.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Service.Contracts.dll": {}
+        }
+      },
+      "Reaqtor.Service.Core/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Expressions.Core": "1.0.0",
+          "Reaqtor.Expressions.Model": "1.0.0",
+          "Reaqtor.Local.Core": "1.0.0",
+          "Reaqtor.Metadata.Model": "1.0.0",
+          "Reaqtor.Service.Model": "1.0.0",
+          "Reaqtor.Shared.Core": "1.0.0",
+          "Reaqtor.Shared.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Service.Core.dll": {}
+        }
+      },
+      "Reaqtor.Service.Model/1.0.0": {
+        "dependencies": {
+          "Reaqtor.Expressions.Model": "1.0.0",
+          "Reaqtor.Metadata.Model": "1.0.0",
+          "Reaqtor.Shared.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Service.Model.dll": {}
+        }
+      },
+      "Reaqtor.Shared.Core/1.0.0": {
+        "dependencies": {
+          "Nuqleon.Linq.CompilerServices": "1.0.0",
+          "Reaqtor.Expressions.Model": "1.0.0",
+          "Reaqtor.Shared.Model": "1.0.0"
+        },
+        "runtime": {
+          "Reaqtor.Shared.Core.dll": {}
+        }
+      },
+      "Reaqtor.Shared.Model/1.0.0": {
+        "runtime": {
+          "Reaqtor.Shared.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Reaqtor.IoT/1.0.0-beta.31": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Build.Tasks.Git/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AT3HlgTjsqHnWpBHSNeR0KxbLZD7bztlZVj7I8vgeYG9SYqbeFGh0TM/KVtC6fg53nrWHl3VfZFvb5BiQFcY6Q==",
+      "path": "microsoft.build.tasks.git/1.1.1",
+      "hashPath": "microsoft.build.tasks.git.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.Common/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WMcGpWKrmJmzrNeuaEb23bEMnbtR/vLmvZtkAP5qWu7vQsY59GqfRJd65sFpBszbd2k/bQ8cs8eWawQKAabkVg==",
+      "path": "microsoft.sourcelink.common/1.1.1",
+      "hashPath": "microsoft.sourcelink.common.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.GitHub/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IaJGnOv/M7UQjRJks7B6p7pbPnOwisYGOIzqCz5ilGFTApZ3ktOR+6zJ12ZRPInulBmdAf1SrGdDG2MU8g6XTw==",
+      "path": "microsoft.sourcelink.github/1.1.1",
+      "hashPath": "microsoft.sourcelink.github.1.1.1.nupkg.sha512"
+    },
+    "Nerdbank.GitVersioning/3.6.133": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VZWMd5YAeDxpjWjAP/X6bAxnRMiEf6tES/ITN0X5CHJgkWLLeHGmEALivmTAfYM6P+P/3Szy6VCITUAkqjcHVw==",
+      "path": "nerdbank.gitversioning/3.6.133",
+      "hashPath": "nerdbank.gitversioning.3.6.133.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "Nuqleon.Collections.Specialized/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nuqleon.DataModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nuqleon.DataModel.Serialization.Json/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nuqleon.IO.StreamSegment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nuqleon.Json/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nuqleon.Json.Interop.Newtonsoft/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nuqleon.Linq.CompilerServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nuqleon.Linq.Expressions.Bonsai/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nuqleon.Linq.Expressions.Bonsai.Serialization/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nuqleon.Memory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nuqleon.Reflection.Virtualization/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nuqleon.Time/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtive.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtive.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtive.Linq/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtive.Quotation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtive.Scheduler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Client.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Client.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Engine.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Expressions.Binding/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Expressions.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Expressions.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Local.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Local.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Metadata.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.QueryEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.QueryEngine.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.QueryEngine.Serialization.DataModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Reactive.HigherOrder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Reliable/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Reliable.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Service.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Service.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Service.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Shared.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reaqtor.Shared.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
